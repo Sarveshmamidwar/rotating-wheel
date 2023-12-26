@@ -1,0 +1,32 @@
+ body{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+}
+
+.ex8{
+
+    border-left: 200px solid red;
+    border-right: 200px solid yellow;
+    border-bottom: 200px solid blue;
+    border-top: 200px solid green;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0px 0px 55px 5px black;
+}
+.z{
+    border: 35px solid transparent;
+    border-radius: 100%;
+}
+.x{
+    border-radius: 100%;
+    background: linear-gradient(#33ccff,#ff0066);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 0px 55px 5px #33ccff;
+}
+.x:hover{
+    transform: rotate(360deg);
+}
+
